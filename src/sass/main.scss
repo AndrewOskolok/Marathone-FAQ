@@ -3,6 +3,11 @@
  */
 
 @import 'normalize.scss';
+
+@import './bootstrap/bootstrap.scss';
+@import './bootstrap/bootstrap-grid.scss';
+@import './bootstrap/bootstrap-reboot.scss';
+
 @import './helpers/fonts.scss';
 @import './helpers/variables.scss';
 @import './helpers/visually-hidden.scss';
