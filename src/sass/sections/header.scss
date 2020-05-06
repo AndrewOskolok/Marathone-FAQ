@@ -1,21 +1,17 @@
 @keyframes logo-animation {
   0% {
-    -webkit-transform: translateY(-200px);
     transform: translateY(-200px);
   }
 
   40% {
-    -webkit-transform: translateY(0), rotate(0);
     transform: translateY(0), rotate(0);
   }
 
   50% {
-    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -26,9 +22,12 @@
   background-size: cover;
 
   &__title {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    font-family: $main-font;
+    color: $white;
+    margin: 0;
   }
 }
 
@@ -39,9 +38,10 @@
 }
 
 @media (max-width: 767px) {
-  .header__title-span-and,
-  .header__title-span {
-    display: block;
+  .header__title {
+    &-span {
+      display: block;
+    }
   }
 }
 
@@ -50,9 +50,13 @@
     background-image: url(../images/header/tablet_bg.jpg);
 
     &__title {
-      font-size: 42px;
+      font-size: 30px;
     }
   }
+}
+
+.site-logo {
+ 
 }
 
 @media (min-width: 1200px) {
@@ -60,7 +64,11 @@
     background-image: url(../images/header/desktop_bg.jpg);
 
     &__title {
-      font-size: 52px;
+      font-size: 48px;
     }
   }
+}
+
+.site-logo {
+
 }
