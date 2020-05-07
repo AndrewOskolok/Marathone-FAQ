@@ -20,6 +20,8 @@
   background-image: url(../images/header/mobile_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 22px;
+  padding-bottom: 22px;
 
   &__title {
     font-size: 20px;
@@ -27,6 +29,7 @@
     text-align: center;
     font-family: $main-font;
     color: $white;
+    font-weight: 700;
     margin: 0;
   }
 }
@@ -43,11 +46,17 @@
       display: block;
     }
   }
+
+  .site-logo {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 768px) {
   .header {
     background-image: url(../images/header/tablet_bg.jpg);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     &__title {
       font-size: 30px;
@@ -56,12 +65,13 @@
 }
 
 .site-logo {
- 
 }
 
 @media (min-width: 1200px) {
   .header {
     background-image: url(../images/header/desktop_bg.jpg);
+    padding-top: 26px;
+    padding-bottom: 26px;
 
     &__title {
       font-size: 48px;
@@ -70,5 +80,4 @@
 }
 
 .site-logo {
-
 }
