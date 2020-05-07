@@ -38,3 +38,29 @@ h5,
 h6 {
   margin: 0;
 }
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: #efefef;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+
+.header {
+  height: 100px;
+}
+
+.footer {
+  background-color: #562a87;
+  height: 56px;
+  padding: 18px 0;
+  justify-self: auto;
+  width: 100%;
+  align-self: flex-end;
+}

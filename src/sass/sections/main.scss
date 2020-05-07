@@ -1,3 +1,16 @@
+.main {
+  background-color: #efefef;
+  padding: 40px 0 80px;
+  justify-self: start;
+}
+
+main .container {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-radius: 0.25rem;
+}
+
 .nav {
   @media (max-width: 319px) {
     display: flex;
@@ -14,9 +27,11 @@
   background-color: #000;
   color: #fff;
 }
+
 .nav-tabs .nav-link.active:hover {
   color: #fff;
 }
+
 .nav-tabs .nav-link {
   background-color: #fe6907;
   color: #fff;
@@ -25,6 +40,7 @@
   padding-left: 25px;
   padding-right: 25px;
 }
+
 .nav-tabs .nav-link:hover {
   color: #000;
 }

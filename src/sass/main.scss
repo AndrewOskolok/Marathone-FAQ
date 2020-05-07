@@ -12,9 +12,11 @@
 @import './helpers/variables.scss';
 @import './helpers/visually-hidden.scss';
 @import './helpers/base-styles.scss';
+@import './helpers/sample-box';
 @import 'base.scss';
 
 @import './sections/header.scss';
+@import './components/example-text.scss';
 @import './sections/main.scss';
 @import './sections/question-answer.scss';
 @import './sections/days.scss';
