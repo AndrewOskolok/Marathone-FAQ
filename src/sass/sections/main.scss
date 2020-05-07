@@ -4,6 +4,13 @@
   justify-self: start;
 }
 
+main .container {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-radius: 0.25rem;
+}
+
 .nav {
   @media (max-width: 319px) {
     display: flex;
