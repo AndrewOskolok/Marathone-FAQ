@@ -12,14 +12,26 @@ main .container {
 }
 
 .nav {
-  @media (max-width: 319px) {
+  @media (min-width: 320px) and (max-width: 441px) {
     display: flex;
     flex-direction: column;
   }
   @media (max-width: 719px) {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-around;
+  }
+
+  @media (min-width: 720px) and (max-width: 991px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (min-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+
   }
 }
 
