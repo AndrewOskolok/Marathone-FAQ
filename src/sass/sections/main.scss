@@ -1,3 +1,15 @@
+.nav {
+  @media (max-width: 319px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 719px) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+
 .nav-tabs .nav-link.active {
   background-color: #000;
   color: #fff;
@@ -14,5 +26,5 @@
   padding-right: 25px;
 }
 .nav-tabs .nav-link:hover {
- color: #64339e;
+  color: #64339e;
 }
