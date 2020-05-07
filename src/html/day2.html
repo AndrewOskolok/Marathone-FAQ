@@ -1,18 +1,129 @@
 <section class="question-answer">
-  <h2 class="faq-title title">FAQ List</h2>
+  <h2 class="faq-title title">Общие вопросы</h2>
   <div class="accordion" id="accordionExample">
     <div class="card">
       <div class="card-header" id="headingOne">
         <h3 class="mb-0">
           <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
             aria-expanded="true" aria-controls="collapseOne">
-            *Вопрос №x*
+            Для чего нужен normalize.css?
           </button>
         </h3>
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
-          <p>*Ответ на вопрос №x*.</p>
+          <p>Он обеспечивает для HTML- элементов лучшую кроссбраузерность в стилях по умолчанию.</p>
+          //= ./example-text.html
+          //= ./sample-box.html
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h3 class="mb-0">
+          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Как сделать комментарий?
+          </button>
+        </h3>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Нажмите ctrl + /</p>
+          //= ./example-text.html
+          //= ./sample-box.html
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="faq-title title">Avocode</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h3 class="mb-0">
+          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Как скопировать текст из программы Avocode?
+          </button>
+        </h3>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Необходимо выделить часть кода и нажать ctrl + C</p>
+          //= ./example-text.html
+          //= ./sample-box.html
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="faq-title title">VSCode</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h3 class="mb-0">
+          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            При сохранении редактируется index.html. Получается следующее: http://joxi.ru/Q2K98N7Iwpkbyr. .Что делать?
+          </button>
+        </h3>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Простое решение: http://joxi.ru/Vrwv54lT80Q31A,
+            также можно отключить форматирование: http://joxi.ru/Y2L9NJ0IQY1q1A</p>
+          //= ./example-text.html
+          //= ./sample-box.html
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h3 class="mb-0">
+          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Как уменьшить отступ, выделяя строки как на видео 2-го урока?
+          </button>
+        </h3>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Необходимо нажать shift + tab.</p>
+          //= ./example-text.html
+          //= ./sample-box.html
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h3 class="mb-0">
+          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Почему не отображается &lt;img&gt;?
+          </button>
+        </h3>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <ol>
+            <li>
+              1) проверьте, правильна ли у Вас иерархия папок. В папке project должны быть:
+              <ul>
+                <li>
+                  - файл index.html,
+                </li>
+                <li>
+                  - папка img (в ней изображение photo.jpg),
+                </li>
+                <li>
+                  - папка css (в ней в дальнейшем будет файл со стилями), 
+                  в таком случае в index.html пишем: &lt;img src="./img/photo.jpg" alt="my photo"&gt;
+                </li>
+              </ul>
+            </li>
+            <li>
+              2) в названиях папок и файлов у нас нет кириллицы, пробелов и заглавных букв.
+            </li>
+          </ol>
           //= ./example-text.html
           //= ./sample-box.html
         </div>
@@ -20,3 +131,4 @@
     </div>
   </div>
 </section>
+
