@@ -1,20 +1,20 @@
 <section class="question-answer">
   <h2 class="pl-3 mt-5 mb-3 faq-title title">FAQ List</h2>
-  <div class="accordion" id="accordionExample">
+  <div class="accordion" id="accordion">
     <div class="card">
-      <div class="card-header" id="headingOne">
+      <div class="card-header">
         <h3 class="mb-0">
-          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
+          <button class="btn btn-link question collapsed" type="button"
+            data-toggle="collapse" aria-expanded="true">
             *Вопрос №x*
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="collapse" data-parent="#accordion">
         <div class="card-body">
           <p>*Ответ на вопрос №x*.</p>
-          //= ./example-text.html
-          //= ./sample-box.html
+          //= ./components/example-text.html
+          //= ./components/sample-box.html
         </div>
       </div>
     </div>

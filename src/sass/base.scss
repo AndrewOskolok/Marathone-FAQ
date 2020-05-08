@@ -41,26 +41,62 @@ h6 {
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   height: 100vh;
   background-color: #efefef;
 }
 
-header,
-main,
-footer {
-  width: 100%;
+
+
+h1 {
+  font-family: $main-font;
+  color: $white;
+  font-size: 35px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.header {
-  height: 100px;
+.title {
+  font-family: $main-font;
+  color: $title-color;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
-.footer {
-  background-color: #562a87;
-  height: 56px;
-  padding: 18px 0;
-  justify-self: auto;
-  width: 100%;
-  align-self: flex-end;
+.subtitle {
+  font-family: $main-font;
+  color: $title-color;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+    line-height: 45px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  h1 {
+    font-size: 43px;
+  }
+
+  .tab {
+    font-size: 21px;
+  }
+
+  .subtitle {
+    font-size: 23px;
+  }
 }

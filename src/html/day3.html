@@ -1,77 +1,107 @@
 <section class="question-answer">
   <h2 class="pl-3 mt-5 mb-3 faq-title title">VSCode</h2>
-  <div class="accordion" id="accordionExample">
+  <div class="accordion" id="accordion">
     <div class="card">
-      <div class="card-header" id="headingOne">
+      <div class="card-header">
         <h3 class="mb-0">
-          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            Что делать, если после команды <code>display:flex</code> текст вылетает за границы документа?
+          <button class="btn btn-link question collapsed" type="button"
+            data-toggle="collapse" aria-expanded="true">
+            Что делать, если после команды <code>display:flex</code> текст
+            вылетает за границы документа?
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="collapse" data-parent="#accordion">
         <div class="card-body">
-          <p>Если у Вас сейчас не получается получить желаемый результат после применения <code>display: flex</code>, значит нужно проверить обертки и убедиться, что Вы указали <code>display: flex</code> нужному классу. У нас есть <code>&lt;div&gt;</code> с классом <code>wrapper</code>, в нем <code>&lt;aside&gt;</code> и <code>&lt;div&gt;</code> с классом <code>about-me-container</code>, классу <code>wrapper</code> нужно написать <code>display: flex</code>.</p>
+          <p>Если у Вас сейчас не получается получить желаемый результат после
+            применения <code>display: flex</code>, значит нужно проверить
+            обертки и убедиться, что Вы указали <code>display: flex</code>
+            нужному классу. У нас есть <code>&lt;div&gt;</code> с классом
+            <code>wrapper</code>, в нем <code>&lt;aside&gt;</code> и
+            <code>&lt;div&gt;</code> с классом <code>about-me-container</code>,
+            классу <code>wrapper</code> нужно написать
+            <code>display: flex</code>.</p>
         </div>
       </div>
-
-      <div class="card-header" id="headingOne">
+    </div>
+    <div class="card">
+      <div class="card-header">
         <h3 class="mb-0">
-          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
+          <button class="btn btn-link question collapsed" type="button"
+            data-toggle="collapse" aria-expanded="true">
             Как подключить шрифт?
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="collapse" data-parent="#accordion">
         <div class="card-body">
-          <p>Чтобы подключить шрифт, добавьте перед <code>&lt;/head&gt;</code>: <code>&lt;link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet"&gt;</code></p>
+          <p>Чтобы подключить шрифт, добавьте перед
+            <code>&lt;/head&gt;</code>:
+            <code>&lt;link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet"&gt;</code>
+          </p>
         </div>
       </div>
-
-      <div class="card-header" id="headingOne">
+    </div>
+    <div class="card">
+      <div class="card-header">
         <h3 class="mb-0">
-          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
+          <button class="btn btn-link question collapsed" type="button"
+            data-toggle="collapse" aria-expanded="true">
             Как правильно задать размер фото?
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="collapse" data-parent="#accordion">
         <div class="card-body">
-          <p>В следующих уроках через <code>css</code> мы будем задавать размер изображению. Но пока что можно сделать так: <code>&lt;img width="300" src="./img/photo.jpg" alt="My photo 123"&gt;</code></p>
+          <p>В следующих уроках через <code>css</code> мы будем задавать
+            размер
+            изображению. Но пока что можно сделать так:
+            <code>&lt;img width="300" src="./img/photo.jpg" alt="My photo 123"&gt;</code>
+          </p>
         </div>
       </div>
-
-      <div class="card-header" id="headingOne">
+    </div>
+    <div class="card">
+      <div class="card-header">
         <h3 class="mb-0">
-          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            Что делать, если не появляется красный <code>+</code>, чтобы выбрать шрифт?
+          <button class="btn btn-link question collapsed" type="button"
+            data-toggle="collapse" aria-expanded="true">
+            Что делать, если не появляется красный <code>+</code>, чтобы
+            выбрать
+            шрифт?
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="collapse" data-parent="#accordion">
         <div class="card-body">
-          <p>Нажмите на <code>"Return to classic site"</code> или попробуйте отключить <code>adblock</code>.</p>
+          <p>Нажмите на <code>"Return to classic site"</code> или
+            попробуйте
+            отключить <code>adblock</code>.</p>
         </div>
       </div>
-
-      <div class="card-header" id="headingOne">
+    </div>
+    <div class="card">
+      <div class="card-header">
         <h3 class="mb-0">
-          <button class="btn btn-link question" type="button" data-toggle="collapse" data-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            Как не допустить автоформатирование? Текст под <code>contacts</code> (телефон и email) становиться в одну строку при сохранении.
+          <button class="btn btn-link question collapsed" type="button"
+            data-toggle="collapse" aria-expanded="true">
+            Как не допустить автоформатирование? Текст под
+            <code>contacts</code>
+            (телефон и email) становиться в одну строку при сохранении.
           </button>
         </h3>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="collapse" data-parent="#accordion">
         <div class="card-body">
-          <p>Попробуйте добавить в настройки <code>prettier</code> строку <code>"htmlWhitespaceSensitivity"</code>: <code>"ignor"</code>, этот параметр можно внести в настройках расширения <code>prettier</code>, или внести в файл <code>json</code>.</p>
+          <p>Попробуйте добавить в настройки <code>prettier</code>
+            строку
+            <code>"htmlWhitespaceSensitivity"</code>:
+            <code>"ignor"</code>, этот
+            параметр можно внести в настройках расширения
+            <code>prettier</code>,
+            или внести в файл <code>json</code>.</p>
         </div>
       </div>
-
     </div>
   </div>
 </section>

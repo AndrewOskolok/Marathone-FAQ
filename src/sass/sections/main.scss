@@ -1,7 +1,7 @@
 .main {
   background-color: #efefef;
   padding: 40px 0 80px;
-  justify-self: start;
+  flex: 2 0 auto;
 }
 
 main .container {
@@ -9,6 +9,14 @@ main .container {
   padding-top: 30px;
   padding-bottom: 60px;
   border-radius: 0.25rem;
+}
+
+.tab {
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
 }
 
 .nav {
@@ -55,3 +63,5 @@ main .container {
   background: #fe6907;
   border: 1px solid #fe6907;
 }
+
+
